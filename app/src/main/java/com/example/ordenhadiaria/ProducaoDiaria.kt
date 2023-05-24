@@ -9,6 +9,5 @@ class ProducaoDiaria : AppCompatActivity() {
             setContentView(R.layout.producao_diaria)
 
             var line : String
-
         }
     }
