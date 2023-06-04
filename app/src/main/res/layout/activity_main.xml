@@ -27,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="24dp"
-                    android:text="Graph App"
+                    android:text="Ordenha Diária"
                     android:textColor="@color/blue"
                     android:textSize="24sp" />
 
@@ -53,13 +53,13 @@
                             android:padding="16dp">
 
                             <TextView
-                                android:id="@+id/tvTotal"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/blue"
                                 android:text="Total" />
 
                             <TextView
+                                android:id="@+id/tvTotal"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
@@ -86,13 +86,13 @@
                             android:padding="16dp">
 
                             <TextView
-                                android:id="@+id/tvMax"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/blue"
                                 android:text="Máximo" />
 
                             <TextView
+                                android:id="@+id/tvMax"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
@@ -119,13 +119,13 @@
                             android:padding="16dp">
 
                             <TextView
-                                android:id="@+id/tvMin"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/blue"
                                 android:text="Mínimo" />
 
                             <TextView
+                                android:id="@+id/tvMin"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textStyle="bold"
@@ -153,13 +153,13 @@
                             android:padding="16dp">
 
                             <TextView
-                                android:id="@+id/tvAvg"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/blue"
                                 android:text="Média" />
 
                             <TextView
+                                android:id="@+id/tvAvg"
                                 android:maxLength="4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
