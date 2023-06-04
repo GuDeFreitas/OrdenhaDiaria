@@ -17,16 +17,16 @@
         android:theme="@style/Theme.OrdenhaDiaria"
         tools:targetApi="31">
         <activity
-            android:name=".PieChartActivity"
+            android:name=".presentation.BarChartActivity"
             android:exported="false" />
         <activity
-            android:name=".BarChartActivity"
+            android:name=".presentation.BarChartActivity"
             android:exported="false" />
         <activity
             android:name=".Total"
             android:exported="false" />
         <activity
-            android:name=".ProducaoDiaria"
+            android:name=".presentation.BarChartActivity"
             android:exported="false" />
         <activity
             android:name=".Ordenha"
