@@ -1,4 +1,4 @@
-package com.example.codechallengeordenha.data.model
+package com.example.ordenhadiaria.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

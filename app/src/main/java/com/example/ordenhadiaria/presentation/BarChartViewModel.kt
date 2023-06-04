@@ -24,9 +24,9 @@ class BarChartActivity(
         fetchItems()
     }
 
-    val items: LiveData<List<BarChartApplication>> = itemDao.getLastFive()
-    val topFiveItems: LiveData<List<BarChartApplication>> = itemDao.getFiveTop()
-    val downFiveItems: LiveData<List<BarChartApplication> = itemDao.getFiveDown()
+    val ordenha: LiveData<List<Ordenha>> = itemDao.getLastFive()
+    val topFiveItems: LiveData<List<Ordenha>> = itemDao.getFiveTop()
+    val downFiveItems: LiveData<List<Ordenha>> = itemDao.getFiveDown()
 
     val total: LiveData<Float> = itemDao.getTotal()
     val max: LiveData<Float> = itemDao.getMax()
@@ -35,10 +35,9 @@ class BarChartActivity(
 
     fun fetchItems() {
         viewModelScope.launch(dispatcher) {
-            remoteDataSource.fetch()
-                .map {
+            remoteDataSource.fetch().map {
                     itemDao.insert(it)
-            }
+                }
         }
     }
 
@@ -47,7 +46,7 @@ class BarChartActivity(
         fun create(application: Application): BarChartActivity {
             val credentials =
                 GoogleCredential
-                    .fromStream(application.resources.openRawResource(R.raw.ordenha))
+                    .fromStream(application.resources.openRawResource(R.raw.credentials))
 
             val remoteDataSource = RemoteDataSource(credentials)
             val itemDao = (application as BarChartApplication).getAppDataBase().itemDao()

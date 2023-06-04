@@ -30,7 +30,7 @@ open class RemoteDataSource(
                     Sheets.Builder(httpTransport, JSON_FACTORY, credentials.createScoped(SCOPES))
                         .build()
 
-                val spreadsheetId = "18djWhmeUd4Vs0A7-AadJdF7RFQbCw1qN3Bek-mMbCY0"
+                val spreadsheetId = "1Mri_0WGVw_U77TRSU7J9OI7H-k7DXC_uYvnyQ21BsNY"
                 val range = "data!A1:G"
 
                 val response = service.spreadsheets().values()[spreadsheetId, range]

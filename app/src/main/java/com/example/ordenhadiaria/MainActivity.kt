@@ -29,15 +29,14 @@ class MainActivity : AppCompatActivity() {
         val swipeRefresh = findViewById<SwipeRefreshLayout>(R.id.swipeRefresh)
 
         val viewModel = BarChartActivity.create(application)
-
         swipeRefresh.setOnRefreshListener {
             viewModel.fetchItems()
         }
-        viewModel.items.observe(this) {
+        viewModel.ordenha.observe(this) {
             swipeRefresh.isRefreshing = false
             val entries = it.mapIndexed {index, ordenha ->
                 BarEntry(
-                    index.toFloat(ordenha),
+                    index.toFloat(),
                     ordenha.total
                 )
             }
