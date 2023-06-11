@@ -2,8 +2,7 @@
 
 Daily Milking is a cutting-edge Android application designed to recover and consume liveData from a Google Sheet, enhancing user experiences through visually engaging graphs displayed on the screen. they can see the total, maximum, minimum, media and del of the daily milking introduced on Google Sheet (spreadsheet).
 
-## :camera_flash: Screenshots![OrdenhaDiaria](https://github.com/GuDeFreitas/OrdenhaDiaria/assets/119411941/80da46d8-179e-400b-8400-f8c1aafa11f0)
-![OrdenhaDiaria2](https://github.com/GuDeFreitas/OrdenhaDiaria/assets/119411941/e83ebcca-0caa-4892-919f-1ad9fbcf796a)
+## 
 
 # Technologies
 * Kotlin 100%
