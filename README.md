@@ -19,7 +19,7 @@ Daily Milking is a cutting-edge Android application designed to recover and cons
 
 ## Author
 
-Gustavo De Freitas (follow me on LinkedIn)
+Gustavo De Freitas (follow me on [LinkedIn](https://www.linkedin.com/in/gustavo-de-freitas/))
 
 ## License
 ```
